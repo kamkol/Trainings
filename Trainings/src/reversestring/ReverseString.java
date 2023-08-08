@@ -6,6 +6,8 @@ public class ReverseString {
 
 	public static void main(String args[]) {
 		
+		//using for and reverse;
+		System.out.println("Using for loop and reverse/original text");
 		String text, reverse = "";
 		
 		Scanner scanner = new Scanner(System.in);
@@ -20,6 +22,14 @@ public class ReverseString {
 		}
 		
 		System.out.println("Reverse of your string: " + reverse);
+		
+		
+//		using internal method:
+		System.out.println();
+		System.out.println("Using internal method");
+		StringBuffer stringBuffer = new StringBuffer("Reverse this one");
+		System.out.println(stringBuffer.reverse());
+		
 		
 	}
 
