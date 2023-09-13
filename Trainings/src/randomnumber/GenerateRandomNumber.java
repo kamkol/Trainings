@@ -10,7 +10,7 @@ public class GenerateRandomNumber {
 		Random random = new Random();
 		
 		for (x = 1; x<10; x++) {
-			System.out.println(random.nextInt(20));
+			System.out.println(random.nextInt(10));
 			
 		}
 
